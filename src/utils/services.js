@@ -1,19 +1,3 @@
-import iosIcon from "../../public/services/ios.svg";
-import androidIcon from "../../public/services/android.svg";
-import reactNativeIcon from "../../public/services/react-native.svg";
-import flutterIcon from "../../public/services/flutter.svg";
-import sunmiIcon from "../../public/services/sunmi.svg";
-import webPortalIcon from "../../public/services/web-portal.svg";
-import customWebDevIcon from "../../public/services/custom-web-dev.svg";
-import ecommIcon from "../../public/services/e-commerce.svg";
-import cmsIcon from "../../public/services/cms.svg";
-import maintenanceIcon from "../../public/services/maintenance.svg";
-import mobAndWebIcon from "../../public/services/mobile-web-design.svg";
-import productDesignIcon from "../../public/services/product-design.svg";
-import brandingIcon from "../../public/services/branding.svg";
-import prototypeIcon from "../../public/services/prototype.svg";
-import visualDesignIcon from "../../public/services/visual-design.svg";
-
 const services = [
   {
     id: 1,
@@ -23,23 +7,23 @@ const services = [
     service_types: [
       {
         name: "iOS App",
-        icon: iosIcon,
+        icon: "/services/ios.svg",
       },
       {
         name: "Android App",
-        icon: androidIcon,
+        icon: "/services/android.svg",
       },
       {
         name: "React Native App",
-        icon: reactNativeIcon,
+        icon: "/services/react-native.svg",
       },
       {
         name: "Flutter App",
-        icon: flutterIcon,
+        icon: "/services/flutter.svg",
       },
       {
         name: "Sunmi POS App",
-        icon: sunmiIcon,
+        icon: "/services/web-portal.svg",
       },
     ],
     cta: {
@@ -55,23 +39,23 @@ const services = [
     service_types: [
       {
         name: "Web Potal Development",
-        icon: webPortalIcon,
+        icon: "/services/web-portal.svg",
       },
       {
         name: "Custom Web Development",
-        icon: customWebDevIcon,
+        icon: "/services/custom-web-dev.svg",
       },
       {
         name: "E-commerce Development",
-        icon: ecommIcon,
+        icon: "/services/e-commerce.svg",
       },
       {
         name: "CMS Web Development",
-        icon: cmsIcon,
+        icon: "/services/cms.svg",
       },
       {
         name: "Support & Maintenance",
-        icon: maintenanceIcon,
+        icon: "/services/maintenance.svg",
       },
     ],
     cta: {
@@ -87,23 +71,23 @@ const services = [
     service_types: [
       {
         name: "Mobile & Web Design",
-        icon: mobAndWebIcon,
+        icon: "/services/mobile-web-design.svg",
       },
       {
         name: "Product Design",
-        icon: productDesignIcon,
+        icon: "/services/product-design.svg",
       },
       {
         name: "Branding & Logo Design",
-        icon: brandingIcon,
+        icon: "/services/branding.svg",
       },
       {
         name: "Prototype & Wireframe",
-        icon: prototypeIcon,
+        icon: "/services/prototype.svg",
       },
       {
         name: "Visual Design",
-        icon: visualDesignIcon,
+        icon: "/services/visual-design.svg",
       },
     ],
     cta: {
