@@ -8,7 +8,7 @@ const WhatWeDo = () => {
       <Container className="py-3 py-lg-5">
         <Row>
           <Col xl={8} className="mx-auto">
-            <h2 className="h2 fw-semibold text-center mb-4">What We Do</h2>
+            <h2 className="h2 fw-semibold text-center mb-2 mb-lg-4">What We Do</h2>
             <p className="p text-center">
               we turn ambitious ideas into high-performance software solutions —
               tailored, scalable, and built for real business impact. Backed by
@@ -22,7 +22,7 @@ const WhatWeDo = () => {
         <Row className="services justify-content-center">
           {services?.map((service) => {
             return (
-              <Col lg={4} md={6} sm={12} key={service?.id} className="service mb-lg-0 mb-4">
+              <Col lg={4} md={6} sm={6} xs={6} key={service?.id} className="service mb-lg-0 mb-4">
                 <ServiceCard
                   serviceName={service?.service_name}
                   serviceDesc={service?.service_info}

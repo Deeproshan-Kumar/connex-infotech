@@ -12,9 +12,9 @@ function Header() {
       className="header position-sticky top-0 bg-white py-1"
     >
       <Container>
-        <Navbar.Brand as={Link} to="/">
+        <Navbar.Brand as={Link} to="/" className="p-0 m-0">
           <img
-            src="/logo.png"
+            src="/logo.svg"
             alt="Connex Infotech"
             className="img-fluid h-auto w-100"
             height={93}
@@ -22,8 +22,8 @@ function Header() {
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse className="pb-4" id="responsive-navbar-nav">
-          <Nav className="ms-auto me-0 me-xl-5 me-lg-4">
+        <Navbar.Collapse className="pb-4 pb-lg-0" id="responsive-navbar-nav">
+          <Nav className="ms-auto me-0 me-xl-5 me-lg-0">
             <Nav.Link
               as={Link}
               to="/"

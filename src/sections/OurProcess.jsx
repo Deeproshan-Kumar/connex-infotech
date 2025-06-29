@@ -7,16 +7,16 @@ const OurProcess = () => {
       <Container className="py-3 py-lg-5">
         <Row>
           <Col xl={8} className="mx-auto mb-3 mb-lg-5">
-            <h2 className="h2 fw-semibold text-center mb-4">The Connex Way</h2>
+            <h2 className="h2 fw-semibold text-center mb-2 mb-lg-4">The Connex Way</h2>
             <p className="p text-center">
               We keep things simple, clear, and collaborative. Here's how we
               turn your ideas
-              <br /> into real, working software.
+              <span className="d-inline-block d-lg-block">into real, working software.</span>
             </p>
           </Col>
         </Row>
         <Row className="justify-content-center mt-lg-4">
-          <Col xl={3} lg={6} sm={12} className="mb-xl-0 mb-4">
+          <Col xl={3} lg={6} sm={6} xs={6} className="mb-xl-0 mb-4">
             <article className="h-100 w-100 p-2">
               <IconBox
                 icon={"/process/discuss.png"}
@@ -25,7 +25,7 @@ const OurProcess = () => {
               />
             </article>
           </Col>
-          <Col xl={3} lg={6} sm={12} className="mb-xl-0 mb-4">
+          <Col xl={3} lg={6} sm={6} xs={6} className="mb-xl-0 mb-4">
             <article className="h-100 w-100 p-2">
               <IconBox
                 icon={"/process/design.png"}
@@ -34,7 +34,7 @@ const OurProcess = () => {
               />
             </article>
           </Col>
-         <Col xl={3} lg={6} sm={12} className="mb-xl-0 mb-4">
+         <Col xl={3} lg={6} sm={6} xs={6} className="mb-xl-0 mb-4">
             <article className="h-100 w-100 p-2">
               <IconBox
                 icon={"/process/build.png"}
@@ -43,7 +43,7 @@ const OurProcess = () => {
               />
             </article>
           </Col>
-          <Col xl={3} lg={6} sm={12} className="mb-xl-0 mb-4">
+          <Col xl={3} lg={6} sm={6} xs={6} className="mb-xl-0 mb-4">
             <article className="h-100 w-100 p-2">
               <IconBox
                 icon={"/process/deliver.png"}

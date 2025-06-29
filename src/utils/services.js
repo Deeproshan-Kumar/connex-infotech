@@ -7,23 +7,23 @@ const services = [
     service_types: [
       {
         name: "iOS App",
-        icon: "/services/ios.svg",
+        icon: "/services_icons/ios.svg",
       },
       {
         name: "Android App",
-        icon: "/services/android.svg",
+        icon: "/services_icons/android.svg",
       },
       {
         name: "React Native App",
-        icon: "/services/react-native.svg",
+        icon: "/services_icons/react-native.svg",
       },
       {
         name: "Flutter App",
-        icon: "/services/flutter.svg",
+        icon: "/services_icons/flutter.svg",
       },
       {
         name: "Sunmi POS App",
-        icon: "/services/web-portal.svg",
+        icon: "/services_icons/web-portal.svg",
       },
     ],
     cta: {
@@ -39,23 +39,23 @@ const services = [
     service_types: [
       {
         name: "Web Potal Development",
-        icon: "/services/web-portal.svg",
+        icon: "/services_icons/web-portal.svg",
       },
       {
         name: "Custom Web Development",
-        icon: "/services/custom-web-dev.svg",
+        icon: "/services_icons/custom-web-dev.svg",
       },
       {
         name: "E-commerce Development",
-        icon: "/services/e-commerce.svg",
+        icon: "/services_icons/e-commerce.svg",
       },
       {
         name: "CMS Web Development",
-        icon: "/services/cms.svg",
+        icon: "/services_icons/cms.svg",
       },
       {
         name: "Support & Maintenance",
-        icon: "/services/maintenance.svg",
+        icon: "/services_icons/maintenance.svg",
       },
     ],
     cta: {
@@ -71,23 +71,23 @@ const services = [
     service_types: [
       {
         name: "Mobile & Web Design",
-        icon: "/services/mobile-web-design.svg",
+        icon: "/services_icons/mobile-web-design.svg",
       },
       {
         name: "Product Design",
-        icon: "/services/product-design.svg",
+        icon: "/services_icons/product-design.svg",
       },
       {
         name: "Branding & Logo Design",
-        icon: "/services/branding.svg",
+        icon: "/services_icons/branding.svg",
       },
       {
         name: "Prototype & Wireframe",
-        icon: "/services/prototype.svg",
+        icon: "/services_icons/prototype.svg",
       },
       {
         name: "Visual Design",
-        icon: "/services/visual-design.svg",
+        icon: "/services_icons/visual-design.svg",
       },
     ],
     cta: {

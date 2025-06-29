@@ -4,10 +4,9 @@ const HeroSectionCard = ({ img, name, bgColor }) => {
   return (
     <Card
       className="hero-section-card"
-      style={{height:'240px', width: "220px" }}
     >
-      <Card.Body className="position-relative overflow-hidden p-0" style={{paddingBottom: '40px'}}>
-        <div className="d-flex justify-content-center align-items-center p-3" style={{height: '175px'}}>
+      <Card.Body className="position-relative overflow-hidden p-0">
+        <div className="d-flex justify-content-center align-items-center p-3">
             <Card.Img variant="center" src={img} className="h-100 w-100 object-fit-contain" />
         </div>
         <Card.Text

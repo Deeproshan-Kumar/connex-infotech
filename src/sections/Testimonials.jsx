@@ -11,7 +11,7 @@ const Testimonials = () => {
       <Container>
         <Row>
           <Col lg={12} md={12} sm={12}>
-            <h2 className="h2 fw-semibold text-capitalize text-center mb-4 pb-lg-3">
+            <h2 className="h2 sm_text_24 fw-semibold text-capitalize text-center mb-3 mb-lg-4 pb-lg-3">
               What Our Clients Say
             </h2>
           </Col>
