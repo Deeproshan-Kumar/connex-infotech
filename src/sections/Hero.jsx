@@ -31,28 +31,28 @@ const Hero = () => {
           </Col>
           <Col xl={5} lg={7} md={12} sm={12} className="position-relative">
             <div className="position-relative cards-grid">
-              <div className="card-wrapper position-absolute">
+              <div className="card-wrapper position-absolute cardHero">
                 <HeroSectionCard
                   img={"/BoomPop_logo.png"}
                   name={"BoomPop"}
                   bgColor="#5858F640"
                 />
               </div>
-              <div className="card-wrapper position-absolute">
+              <div className="card-wrapper position-absolute cardHero">
                 <HeroSectionCard
                   img={"/adanione_logo.png"}
                   name={"Adani One"}
                   bgColor="#FFDAFC"
                 />
               </div>
-              <div className="card-wrapper position-absolute">
+              <div className="card-wrapper position-absolute cardHero">
                 <HeroSectionCard
                   img={"/TATA_NEU_logo.png"}
                   name={"Tata Neu"}
                   bgColor="#FFDAE9"
                 />
               </div>
-              <div className="card-wrapper position-absolute">
+              <div className="card-wrapper position-absolute cardHero">
                 <HeroSectionCard
                   img={"/WeCura_logo.png"}
                   name={"WeCura"}

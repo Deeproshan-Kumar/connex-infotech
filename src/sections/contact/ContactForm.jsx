@@ -1,4 +1,4 @@
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container, Form, Row } from "react-bootstrap";
 import { FaArrowRight } from "react-icons/fa6";
 
 const ContactForm = () => {
@@ -193,11 +193,12 @@ const ContactForm = () => {
                 </div>
 
                 <div className="form-field mobile d-flex align-items-center position-relative">
-                  <select name="country-codes">
+                  <img src="/internship/flag.png" className="img-fluid flagImg" />
+                  <Form.Select name="country-codes">
                     <option value="+91" selected>
                       +91
                     </option>
-                  </select>
+                  </Form.Select>
                   <input
                     type="tel"
                     className="form-control"

@@ -7,8 +7,8 @@ const Hero = () => {
         <Row>
           <Col lg={12} md={12} sm={12}>
             <h1 className="display-3 fw-semibold text-center mb-3 mb-lg-4 pb-lg-1">
-              Turning Ideas Into Reality. <br />
-              <span className="gradient-text">Your Friendly Tech Partner.</span>
+              Turning Ideas Into Reality Your <br />
+              <span className="gradient-text"> Friendly Tech Partner.</span>
             </h1>
             <p className="text-center mx-auto" style={{ maxWidth: "992px" }}>
               we’re a team of IT professionals dedicated to creating websites,

@@ -11,7 +11,7 @@ const Stories = () => {
             </h1>
           </Col>
           <Col lg={12} md={12} sm={12}>
-            <div className="stories-container d-flex justify-content-center justify-content-lg-between flex-wrap">
+            <div className="stories-container d-flex gap-3">
               <article className="story position-relative mb-4 mb-lg-0">
                 <div className="mb-4 pb-lg-2">
                   <img src="/about/briefcase.svg" className="sm_size_30" height={62} width={62} />
